@@ -7,5 +7,5 @@ for (let i = 0; i < 3; i++) {
 	products += `<li>${name}</li>`;
 }
 
-const el = document.querySelector('#products');
+const el = document.querySelector('#dev-products');
 el.innerHTML = products;
